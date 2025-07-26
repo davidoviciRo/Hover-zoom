@@ -1,0 +1,12 @@
+#img-zoom-preview {
+  position: fixed;
+  pointer-events: none;
+  border: 2px solid #666;
+  background: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  z-index: 9999999;
+  display: none;
+  object-fit: contain;
+  max-width: none;
+  max-height: none;
+}
